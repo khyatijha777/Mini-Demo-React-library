@@ -1,9 +1,10 @@
 {
-  "name": "de-ui5",
-  "version": "1.0.0",
+  "name": "@khyatijha777/demo-react-library",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "rollup": "rollup -c"
+
   },
   "author": "Khyati Jha",
   "license": "ISC",
@@ -47,5 +48,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm:pkg.github.com/khyatijha777"
+  }
 }
